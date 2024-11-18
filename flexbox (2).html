@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox 1</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container1 {
+            border: 1px solid black;
+            background: blue;
+            width: 500px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .container2 {
+            border: 1px solid black;
+            background: blue;
+            width: 500px;
+            display: flex;
+            gap: 10px;
+            justify-content: end;
+        }
+
+        .container3 {
+            border: 1px solid black;
+            background: blue;
+            width: 500px;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .container4 {
+            border: 1px solid black;
+            background: blue;
+            width: 500px;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 10px;
+        }
+
+        .container5 {
+            border: 1px solid black;
+            background: blue;
+            width: 500px;
+            display: flex;
+            justify-content: space-around;
+            border-radius: 10px;
+        }
+
+        .container6 {
+            border: 1px solid black;
+            background: blue;
+            width: 500px;
+            display: flex;
+            justify-content: space-evenly;
+            border-radius: 10px;
+        }
+
+        .child {
+            width: 60px;
+            height: 60px;
+            background: yellow;
+            border: 1px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex box task 1</h1>
+    <div class="container1">
+        <div class="child box1"></div>
+        <div class="child box2"></div>
+        <div class="child box3"></div>
+    </div><br>
+    <div class="container2">
+        <div class="child sub"></div>
+        <div class="child sub"></div>
+        <div class="child sub"></div>
+    </div><br>
+    <div class="container3">
+        <div class="child jun"></div>
+        <div class="child jun"></div>
+        <div class="child jun"></div>
+    </div><br>
+    <div class="container4">
+        <div class="child jnr"></div>
+        <div class="child jnr"></div>
+        <div class="child jnr"></div>
+    </div><br>
+    <div class="container5">
+        <div class="child kid"></div>
+        <div class="child kid"></div>
+        <div class="child kid"></div>
+    </div><br>
+    <div class="container6">
+        <div class="child kid"></div>
+        <div class="child kid"></div>
+        <div class="child kid"></div>
+    </div>
+</body>
+
+</html>
